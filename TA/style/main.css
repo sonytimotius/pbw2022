@@ -1,0 +1,48 @@
+body {
+    background-color: #37343d;
+    background-image: url(../img/kota\ smg.jpg);
+    background-repeat: no-repeat;
+    background-position: top 0px right 0px;
+    background-size: 1200px;
+}
+h1{
+    font-family: jetbrains mono;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    padding-top: 180px;
+    font-size: 80px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+center{
+    background-color: #686470;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+a {
+    font-family : jetbrains mono;
+    color : white;
+    text-decoration : none;
+    padding : 150px;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    font-family: jetbrains mono;
+    color: white;
+    padding-top: 198px;
+    padding-left: 1260px;
+    font-size: 15px;
+}

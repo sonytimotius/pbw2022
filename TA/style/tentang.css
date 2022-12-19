@@ -1,0 +1,59 @@
+body {
+    background-color: #37343d;
+    background-image: url(../img/abu.jpeg);
+    background-repeat: no-repeat;
+    background-position: top 0px right 0px;
+    background-size: 550px;
+}
+h2 {
+    font-family: jetbrains mono;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+#main {
+    width: 100%;
+}
+#text {
+    width: 50%;
+    min-height: 400px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    margin: 0px;
+    padding-top: 20px;
+}
+#image {
+    width: 30%;
+    min-height: 400px;
+    float: right;
+    margin-top: 60px;
+    padding-right: 30px;
+}
+footer {
+    font-family: jetbrains mono;
+    color: white;
+    padding-top: 520px;
+    padding-left: 1260px;
+    font-size: 15px;
+}
+.back {
+    float: left;
+    padding-left: 50px;
+}
+center {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.foward {
+    float: right;
+    padding-right: 50px;
+}
+a:active {
+    transform: scale(0.8);
+}

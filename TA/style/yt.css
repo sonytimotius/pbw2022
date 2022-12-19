@@ -1,0 +1,41 @@
+body {
+    background-color: #37343d;
+}
+h2 {
+    font-family: jetbrains mono;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 75px;
+    padding-left: 65px;
+    font-size: 45px;
+}
+p {
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-bottom: 50px;
+    padding-right: 600px;
+}
+footer {
+    font-family: jetbrains mono;
+    color: white;
+    padding-top: 73px;
+    padding-left: 1260px;
+    font-size: 15px;
+}
+.back {
+    float: left;
+    padding-left: 50px;
+
+}
+center {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.foward {
+    float: right;
+    padding-right: 50px;
+}
+a:active {
+    transform: scale(0.8);
+}
