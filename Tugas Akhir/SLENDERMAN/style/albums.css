@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    transition: 0.6s;
+    z-index: 100000;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+header.sticky {
+    padding: auto;
+    background: #000;
+}
+
+p {
+    font-family : Oswald Light;
+    font-style : normal;
+    color : #BFBFBF;
+}
+
+a {
+    text-decoration : none;
+}
+
+.nav_top {
+    font-size : 12px;
+    padding-right : 5px;
+}
+
+.nav_bot {
+    padding-right : 25px;
+    margin-top : 5px;
+    font-size: 15px;
+    color : #BFBFBF;
+}
+
+.nav_top:hover {
+    color : white;
+}
+
+.nav_bot:hover {
+    color : white;
+}
+
+#nav_bot_mar {
+    margin-left: 40vw;
+}
+
+#main_logo {
+    width: 100px;
+    height: 40px;
+    margin-left: 46vw;
+}
+
+#cart_counter {
+    font-family: Oswald Regular;
+    font-weight: 200;
+    color : white;
+    padding-bottom : 3px;
+}
+
+#currency_button {
+    background : none;
+    border: none;
+    color : #BFBFBF;
+    padding-left: 0px;
+}
+
+#currency_selector {
+    font-family : Oswald Light;
+    font-style : normal;
+    font-size : 13px;
+    color : #BFBFBF;
+    background : #000;
+    border : none;
+    margin-left : 36vw;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background: #000;
+    background-size: cover;
+    background-size: 20vh;
+}
+
+.add {
+    width: 18%;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 600;
+    background: #fff;
+    color: #000;
+    margin-left: 80px;
+    margin-top: 80px;
+    padding: 10px 230px 10px 230px;
+}
+
+.albums {
+    display: inline-block;
+    margin-right: 40px;
+    align-items: center;
+}
+
+#anjay {
+    margin: 0 17px 0 17px;
+    padding: 50px 300px 0 300px;
+}
+
+.covers {
+    width : 250px;
+    height : 250px;
+}
+
+.price_tag {
+    text-align: center;
+    font-size: 12px;
+}
+
+.title {
+    text-align: center;
+    color : white;
+    font-family: oswald;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size : 13px;
+    margin-top: 10px;
+}
+
+.wishlist {
+    text-align: center;
+    color : white;
+    font-family: oswald;
+    font-size: 11px;
+    text-align : center;
+    margin-top: 5px;
+    margin-left: 99px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Oswald Regular;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#mabar {
+    padding-top: 30px;
+}
+
+#albums {
+    text-align: center;
+    letter-spacing : 7px;
+}
+
+.front {
+    position: relative;
+}
+
+.front img, .back img {
+    display: inline-block;
+    width : 250px;
+    height : 250px;
+    position: relative;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.front:hover .back {
+    display: block;
+    background-color: #000;
+}
+
+#cart-icon {
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #000;
+    filter: drop-shadow(0 0 0.75rem crimson);
+    transform: 0.3s;
+}
+
+.cart-title {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Oswald Regular;
+}
+
+.car-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-img {
+    margin-top: 2rem;
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding: 10px;
+    filter: drop-shadow(0 0 0.75rem white);
+}
+
+.detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.cart-product-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: Oswald light;
+    color: #fff;
+}
+
+.cart-price {
+    font-weight: 500;
+    font-family: Oswald light;
+    color: #fff;
+}
+
+.cart-quantity {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    outline-color: #fff;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cart-remove {
+    margin-top: 2rem;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+
+.cart-remove:hover {
+    color: #fff;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid white;
+}
+
+.total-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: Oswald light;
+}
+
+.total-price {
+    margin-left: 0.5rem;
+    color: #fff;
+    font-family: Oswald light;
+}
+
+.btn-buy {
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: red;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Oswald light;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background: #fff;
+    color: #000;
+}
+
+#close-cart {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    color: #fff;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+.cart.active {
+    right: 0;
+}
+
+footer {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#wow {
+    padding: 0px 620px 0 620px;
+}
+
+.sosmed {
+    display: inline-block;
+    margin-right: 40px;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.sosmed:hover {
+    cursor: pointer;
+}
